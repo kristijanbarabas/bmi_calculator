@@ -11,6 +11,7 @@ class BMICalculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'BMI Calculator',
       // OVDJE MOŽEMO UBACITI NAŠU SLIDER TEMU PA BI SVI SLIDERI JEDNAKO IZGLEDALI, ALI BUDUĆI DA IMAMO JEDAN SLIDER OSTAVIT ĆEMO KOD TAMO GDJE JE
       theme: ThemeData.dark().copyWith(
           appBarTheme: const AppBarTheme(
